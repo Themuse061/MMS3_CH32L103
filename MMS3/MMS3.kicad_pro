@@ -917,7 +917,7 @@
         "uuid": "712cea22-140d-4c92-923f-f4998caf3ecd"
       }
     ],
-    "used_designators": "D1-2,D5,#PWR1,#PWR10-20,#PWR27,#PWR29,#PWR65-67,#PWR72-73,#PWR76-77,#PWR87,#PWR800,#PWR809-810,#PWR812,Q1,J3,J801,#FLG2,R7-10,R12-13,R16,S1-2,C7,C14,C28-34,C800,TP5-6,U2,X3-4",
+    "used_designators": "R33-34,R36-39,#FLG4,#FLG6,L1,D3-4,D6,#PWR30-36,#PWR45,#PWR55-58,#PWR60-63,#PWR88-89,#PWR144-146,C35-52,C69,C74,TP16-20,U3,U15",
     "variants": []
   },
   "sheets": [
@@ -938,16 +938,12 @@
       "CAN_TR2"
     ],
     [
-      "fd12f602-ac1e-499f-946d-8bde69386b34",
-      "Power Supply"
+      "30dc5846-42bf-4558-9bea-6b230be4917d",
+      "VRM"
     ],
     [
       "05cbb48a-06b7-415e-80f6-4593be6cf8dc",
       "Interboard_connector"
-    ],
-    [
-      "5c3b7f4e-0f16-4c1b-bb46-7b272cc46c36",
-      "\"Gpio Expander\""
     ],
     [
       "a6ca7ca5-4c0e-464e-82f5-a53cfbfe6671",
