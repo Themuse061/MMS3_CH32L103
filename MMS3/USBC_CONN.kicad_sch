@@ -2267,145 +2267,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 92.71 129.54)
@@ -2420,10 +2281,22 @@
 		(uuid "27c190eb-f709-4de4-875b-6611ae38a3e6")
 	)
 	(junction
+		(at 162.56 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c41220c-afea-4482-a000-8b010cdfe3d1")
+	)
+	(junction
 		(at 144.78 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ca8fde5-ba4e-4e3c-8145-6b859e12836a")
+	)
+	(junction
+		(at 147.32 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e31f686-31ba-496f-9489-bf332f5a64e7")
 	)
 	(junction
 		(at 115.57 88.9)
@@ -2432,28 +2305,10 @@
 		(uuid "5d216fc9-7cf2-4f93-bf8b-5d3184bf42bb")
 	)
 	(junction
-		(at 153.67 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68e80bb5-8be2-4a24-9558-10bf3621c539")
-	)
-	(junction
 		(at 92.71 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b764234-e461-4280-9574-48a06cfaeb1b")
-	)
-	(junction
-		(at 138.43 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ca3793a-4290-481e-a037-9b9a13310627")
-	)
-	(junction
-		(at 163.83 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be570e33-5f34-4639-8579-a6ea2935176d")
 	)
 	(junction
 		(at 140.97 88.9)
@@ -2468,6 +2323,14 @@
 	(no_connect
 		(at 115.57 104.14)
 		(uuid "3e19c21e-c2bd-4052-8bfa-af83c5bfe99d")
+	)
+	(no_connect
+		(at 115.57 78.74)
+		(uuid "ba7f063d-7649-458d-a126-78aabb73ac50")
+	)
+	(no_connect
+		(at 115.57 81.28)
+		(uuid "bce40883-f4f8-43c9-a3b9-f9dbd4470371")
 	)
 	(bus_entry
 		(at 182.88 91.44)
@@ -2499,13 +2362,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 153.67 73.66)
+			(xy 115.57 73.66) (xy 147.32 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1188a738-180e-4315-84dc-b07b5b5cb776")
+		(uuid "0f3cce13-13f3-42a8-a34a-07c288d462a2")
 	)
 	(wire
 		(pts
@@ -2536,6 +2399,16 @@
 			(type default)
 		)
 		(uuid "1c810ebe-937b-4a8e-8df3-f2642c24ff99")
+	)
+	(wire
+		(pts
+			(xy 147.32 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d408c06-2094-4974-948f-80c5c4753ef0")
 	)
 	(wire
 		(pts
@@ -2589,23 +2462,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 81.28) (xy 128.27 104.14)
+			(xy 162.56 71.12) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ecb882e-4bb3-485b-8313-468e5568ea5a")
-	)
-	(wire
-		(pts
-			(xy 115.57 73.66) (xy 138.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58042ee7-741b-4e70-8c7b-ae8920bcaef0")
+		(uuid "495e5b6c-5df4-462a-82dc-75b0fc919822")
 	)
 	(wire
 		(pts
@@ -2619,26 +2482,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 73.66) (xy 153.67 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f454f87-9d7f-48d4-be0b-efb6f33e3656")
-	)
-	(wire
-		(pts
-			(xy 132.08 78.74) (xy 132.08 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f62fdc1-6420-4e16-afa8-e03d403cfc75")
-	)
-	(wire
-		(pts
 			(xy 144.78 93.98) (xy 180.34 93.98)
 		)
 		(stroke
@@ -2649,13 +2492,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 78.74) (xy 132.08 78.74)
+			(xy 162.56 73.66) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b273eaa-4cb8-45d6-b26c-b870b12fbc25")
+		(uuid "6a2bf763-0ff0-4180-b3ac-2a74c04091c0")
 	)
 	(bus
 		(pts
@@ -2739,46 +2582,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 73.66) (xy 163.83 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb2c13b-e08a-4501-8365-34993b818553")
-	)
-	(wire
-		(pts
-			(xy 115.57 81.28) (xy 128.27 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36f423d-c086-4add-81f9-0ba0b8d77eb7")
-	)
-	(wire
-		(pts
-			(xy 163.83 71.12) (xy 163.83 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9f350e2-3fc7-42c1-a1ca-57316d9580be")
-	)
-	(wire
-		(pts
-			(xy 163.83 73.66) (xy 180.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca543897-f3fc-4783-bacb-6a3e9f5db733")
-	)
-	(wire
-		(pts
 			(xy 100.33 128.27) (xy 100.33 129.54)
 		)
 		(stroke
@@ -2786,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "d2700bc9-e7ab-4ac9-80b8-a1312291c21f")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 147.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db71182c-2372-42d6-8950-efea5f2bf249")
 	)
 	(wire
 		(pts
@@ -2797,36 +2610,6 @@
 		)
 		(uuid "e8587c55-d568-4f6a-9166-03dda27f8c8a")
 	)
-	(wire
-		(pts
-			(xy 138.43 81.28) (xy 138.43 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1587c7c-1bb8-4d09-a3ff-87686f19ea27")
-	)
-	(label "CC1"
-		(at 128.27 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90bfca4c-5260-4314-af39-3eb68b2ad4af")
-	)
-	(label "VBUS"
-		(at 125.73 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c9960f2f-f54e-48aa-ab98-ad0923c2a750")
-	)
 	(label "USBC_CONN.D+"
 		(at 161.29 93.98 0)
 		(effects
@@ -2837,16 +2620,6 @@
 		)
 		(uuid "cabd5b9e-5efc-4e04-a2f7-fc8febb466b7")
 	)
-	(label "CC2"
-		(at 128.27 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7ed24d2-9b21-47c9-8f17-bf7e915840bd")
-	)
 	(label "USBC_CONN.D-"
 		(at 161.29 88.9 0)
 		(effects
@@ -2856,30 +2629,6 @@
 			(justify left bottom)
 		)
 		(uuid "fa28ae74-5652-4e4f-9f65-85ceb751bbdb")
-	)
-	(hierarchical_label "CC1"
-		(shape input)
-		(at 132.08 104.14 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "302347de-f74a-4c2c-a30b-39c6fb66be88")
-	)
-	(hierarchical_label "VBUS"
-		(shape output)
-		(at 180.34 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "a48c6109-fffa-4bf5-ab80-dce900444b29")
 	)
 	(hierarchical_label "USBC_CONN{USB}"
 		(shape output)
@@ -2894,16 +2643,93 @@
 		)
 		(uuid "e2dacde8-d248-41ee-a730-90a4a3c3dd3c")
 	)
-	(hierarchical_label "CC2"
+	(hierarchical_label "VBUS"
 		(shape input)
-		(at 128.27 104.14 270)
+		(at 170.18 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ee58ff99-dcef-4c27-82f5-c1412fff8f23")
+		(uuid "f3456da5-7059-44d5-b017-0a2d94d052e8")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03aa18f9-ace5-4247-8e0c-849a5b24af87")
+		(property "Reference" "#PWR0801"
+			(at 147.32 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5c43d9c-fb95-484b-b8e6-0af7303f72fa")
+		)
+		(instances
+			(project "MMS3"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/74791e0a-96ec-438a-97e0-aa99273ef224"
+					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3061,244 +2887,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
-		(at 138.43 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f59c769-7f23-40a7-968c-a8616e200f3e")
-		(property "Reference" "C800"
-			(at 140.97 74.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 140.97 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 136.652 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "5436546"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.008USD"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "CL05B104KB54PNC"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rated" "50V"
-			(at 140.97 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100nF"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "X7R"
-			(at 138.43 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "797795ba-bdf1-4b72-b66b-1e3ff1e061cc")
-		)
-		(pin "2"
-			(uuid "0cdef865-cb00-45df-871a-1e67519819a2")
-		)
-		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/74791e0a-96ec-438a-97e0-aa99273ef224"
-					(reference "C800")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 153.67 71.12 0)
+		(at 162.56 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3307,9 +2897,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "477e27a9-c15b-4103-9144-549d90b61469")
-		(property "Reference" "#FLG02"
-			(at 153.67 69.215 0)
+		(uuid "8ac8168a-7823-477f-af77-bb316f014fea")
+		(property "Reference" "#FLG03"
+			(at 162.56 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3320,7 +2910,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 153.67 66.04 0)
+			(at 162.56 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3330,7 +2920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 71.12 0)
+			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3341,7 +2931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 71.12 0)
+			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3352,7 +2942,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 71.12 0)
+			(at 162.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3363,89 +2953,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "192eda12-7f65-41e6-8856-eabdcb3eb7b2")
+			(uuid "b444de80-01fa-4ecb-bd33-f52cd00d1da9")
 		)
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/74791e0a-96ec-438a-97e0-aa99273ef224"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70f40178-36ed-479a-90fd-b47819af7afb")
-		(property "Reference" "#PWR0800"
-			(at 138.43 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 86.614 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d6478dd-d4fa-491e-98a2-cc1aebdfc71a")
-		)
-		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/74791e0a-96ec-438a-97e0-aa99273ef224"
-					(reference "#PWR0800")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3825,84 +3338,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 163.83 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b37821de-db3b-424f-8e93-91846063d2f1")
-		(property "Reference" "#PWR030"
-			(at 163.83 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 163.83 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3881bff5-dc1b-46d6-9c7f-63b29d806054")
-		)
-		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/74791e0a-96ec-438a-97e0-aa99273ef224"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:TPD2E2U06DCK")
 		(at 153.67 101.6 0)
 		(unit 1)
@@ -3993,6 +3428,242 @@
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/74791e0a-96ec-438a-97e0-aa99273ef224"
 					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
+		(at 147.32 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2df54e9-be6a-4b83-bc62-f6bbf2a64e27")
+		(property "Reference" "C801"
+			(at 149.86 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 149.86 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 145.542 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "5436546"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.008USD"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL05B104KB54PNC"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 149.86 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 147.32 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6955a70f-61f4-417e-8e62-fe6ac621fcb1")
+		)
+		(pin "2"
+			(uuid "78cb7190-83f1-4563-8585-f3e96d15c245")
+		)
+		(instances
+			(project "MMS3"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/74791e0a-96ec-438a-97e0-aa99273ef224"
+					(reference "C801")
 					(unit 1)
 				)
 			)

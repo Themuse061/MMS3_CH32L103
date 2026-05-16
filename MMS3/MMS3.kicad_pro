@@ -917,7 +917,7 @@
         "uuid": "712cea22-140d-4c92-923f-f4998caf3ecd"
       }
     ],
-    "used_designators": "#PWR29-30,#PWR56,#PWR800,#PWR802-804,#PWR808-810,J800,#FLG2,R10-13,C8,C800,U401",
+    "used_designators": "D1-2,D5,#PWR1,#PWR10-20,#PWR27,#PWR29,#PWR65-67,#PWR72-73,#PWR76-77,#PWR87,#PWR800,#PWR809-810,#PWR812,Q1,J3,J801,#FLG2,R7-10,R12-13,R16,S1-2,C7,C14,C28-34,C800,TP5-6,U2,X3-4",
     "variants": []
   },
   "sheets": [
@@ -926,20 +926,28 @@
       "Root"
     ],
     [
-      "60fdfcb7-bdce-4b67-be94-e0a29ce07df8",
+      "8d009271-d3bb-4150-9191-494f39201dbc",
       "CH32L103"
     ],
     [
       "74791e0a-96ec-438a-97e0-aa99273ef224",
-      "USBC_CONN"
+      "USB_Data"
     ],
     [
       "307a68f1-f486-4a0f-b1cd-0d4ec3697ff2",
       "CAN_TR2"
     ],
     [
+      "fd12f602-ac1e-499f-946d-8bde69386b34",
+      "Power Supply"
+    ],
+    [
       "05cbb48a-06b7-415e-80f6-4593be6cf8dc",
       "Interboard_connector"
+    ],
+    [
+      "5c3b7f4e-0f16-4c1b-bb46-7b272cc46c36",
+      "\"Gpio Expander\""
     ],
     [
       "a6ca7ca5-4c0e-464e-82f5-a53cfbfe6671",
@@ -956,6 +964,14 @@
     [
       "e992d219-4a1f-4323-96a2-9f900f6a567a",
       "POWER_IN_CONN"
+    ],
+    [
+      "ec639d08-3c03-4054-a7c4-c3d480e6d770",
+      "CH32L103_Wrapper"
+    ],
+    [
+      "e6704835-a0d6-4395-9f25-d1173d300c0c",
+      "USB_PD"
     ],
     [
       "c085740e-6122-4df8-b6d1-901cece69bb5",
