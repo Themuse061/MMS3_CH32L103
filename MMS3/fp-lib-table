@@ -7,4 +7,7 @@
 	(lib (name "FixLed307") (type "KiCad") (uri "/data/UserSpace/Projects/HW/MMS3/Lib/Fixled307/FixLed307.pretty") (options "") (descr ""))
 	(lib (name "DIN") (type "KiCad") (uri "/data/UserSpace/Projects/HW/MMS3/Lib/DIN.pretty") (options "") (descr ""))
 	(lib (name "Slide-SW") (type "KiCad") (uri "/data/UserSpace/Projects/HW/MMS3/Lib/Slide-SW/Slide-SW.pretty") (options "") (descr ""))
+	(lib (name "CH32L103C8T6") (type "KiCad") (uri "C:/Users/Muse/Desktop/Pulpit/_Kola_naukowe/KoNarRobotics/MMS3_CH32L103/Lib/CH32L103C8T6.pretty") (options "") (descr ""))
+	(lib (name "MX74502D23") (type "KiCad") (uri "C:/Users/Muse/Desktop/Pulpit/_Kola_naukowe/KoNarRobotics/MMS3_CH32L103/Lib/MX74502D23.pretty") (options "") (descr ""))
+	(lib (name "CMSA160N10") (type "KiCad") (uri "C:/Users/Muse/Desktop/Pulpit/_Kola_naukowe/KoNarRobotics/MMS3_CH32L103/Lib/CMSA160N10.pretty") (options "") (descr ""))
 )

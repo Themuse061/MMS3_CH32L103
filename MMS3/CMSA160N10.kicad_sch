@@ -1,0 +1,675 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "039d3d26-92a5-4605-b137-2f16f077c79a")
+	(paper "A4")
+	(title_block
+		(title "MMS3 CH32L103 Version")
+		(date "2026-05-18")
+		(rev "XA1")
+		(company "(c) Modular Mechanica")
+		(comment 1 "DESIGNED IN POLAND")
+		(comment 2 "Forked by: Wojciech Szafranski")
+		(comment 3 "Made by: Artem Horiunov")
+	)
+	(lib_symbols
+		(symbol "CMSA160N10:CMSA160N10"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CMSA160N10"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CMSA160N10:PDFN-8_L5.8-W5.0-P1.27-LS6.1-BL"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42428221.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Cmos(广东场效应半导体)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CMSA160N10"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C42428221"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CMSA160N10_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 144.78 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a2d4db0-796b-438b-8771-b3a343e82c04")
+	)
+	(junction
+		(at 144.78 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ceb6f33-6e14-4616-9bb7-8b3b075c82a1")
+	)
+	(junction
+		(at 125.73 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ef15d53-faac-44e1-8ec4-083f52e33e73")
+	)
+	(junction
+		(at 144.78 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a56013e-a4a0-4355-bc87-faf05bc6eecb")
+	)
+	(junction
+		(at 125.73 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa9f0bde-97af-4aa0-bde9-f8d7f137c882")
+	)
+	(junction
+		(at 144.78 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbecc254-7172-46d1-ac8d-79a26557c3b8")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a83c305-d755-48a3-81a8-53f2d83e0df5")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 144.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274c4dbc-844f-4bac-ab9d-bf6ee43beaa1")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2c03df-e2c6-4986-a2ea-5d990e8478cc")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3988aaf4-3ef4-4ef1-9e3e-5e22a2835c62")
+	)
+	(wire
+		(pts
+			(xy 127 95.25) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b796fd7-9936-4bd2-bfa1-f07293edc211")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 127 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc69ad9-c0c2-4a64-a114-aed50c58e857")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3f84e4-cd2d-4bb3-9734-25887edea2f7")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8a51e2-9b27-421e-ae87-bb3bcf82e4ea")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622d7ad3-9a71-4403-ab2f-a98317d8dc20")
+	)
+	(wire
+		(pts
+			(xy 124.46 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab2fabb-5046-463f-a74f-76d73fc27bd0")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fc023b-8189-47cc-8b8f-d87981945051")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 144.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a076844d-9e15-4333-8e59-7ed93e96db75")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58f08ee-e1ca-4c53-9dfe-9c4d39a248df")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c197f619-9e0d-4fcd-b5c1-11aac943db2f")
+	)
+	(wire
+		(pts
+			(xy 142.24 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b60eea-3bb8-47bd-9fbd-60db73ce0ed6")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 144.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9021bf-93d0-4c31-a385-ea7625c781f6")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 146.05 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff11327c-3791-4995-a232-283a515981c9")
+	)
+	(hierarchical_label "D"
+		(shape input)
+		(at 146.05 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6622a28-5cf4-42dd-8bf7-5d7c1fc3beea")
+	)
+	(hierarchical_label "S"
+		(shape input)
+		(at 124.46 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faa3b1f1-40de-46d5-82d9-256426f0494a")
+	)
+	(hierarchical_label "G"
+		(shape input)
+		(at 124.46 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff549d5c-e385-4216-99d5-0fa668791237")
+	)
+	(symbol
+		(lib_id "CMSA160N10:CMSA160N10")
+		(at 134.62 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "432abe30-7220-42b6-aa56-c449eb108124")
+		(property "Reference" "Q?"
+			(at 134.62 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DOINGTER DON50N10-TL"
+			(at 134.62 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CMSA160N10:PDFN-8_L5.8-W5.0-P1.27-LS6.1-BL"
+			(at 134.62 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 134.62 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DON50N10-TL"
+			(at 134.62 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C50386318"
+			(at 134.62 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4ac2c837-593a-4e13-8afc-ed1fd2e1d72d")
+		)
+		(pin "5"
+			(uuid "54da53d4-7936-4f31-917d-504596c15c2c")
+		)
+		(pin "6"
+			(uuid "85f3b43a-39e8-4395-9173-14af1fd41b5f")
+		)
+		(pin "1"
+			(uuid "2cbc1790-b570-4bef-9dda-ad41b4ea05ca")
+		)
+		(pin "4"
+			(uuid "ace853ce-1090-46f4-860e-a6f7528d7b96")
+		)
+		(pin "2"
+			(uuid "eee341c6-4438-4019-852c-0f4c8295436a")
+		)
+		(pin "7"
+			(uuid "b3a1ccc3-ae42-496a-8a4e-9d128a893593")
+		)
+		(pin "8"
+			(uuid "898a53ef-12a2-4a51-a997-eb484d22d618")
+		)
+		(pin "9"
+			(uuid "d0e4bbd0-f454-4799-a114-1cc267cb12c4")
+		)
+		(instances
+			(project "MMS3"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/9a06b27f-9b6a-4e31-92df-df3bedc6f86c/1be75847-1909-4b67-b838-c8bbc7ec4791"
+					(reference "Q?")
+					(unit 1)
+				)
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/9a06b27f-9b6a-4e31-92df-df3bedc6f86c/9e8f6c90-627d-4ab0-b348-a4c086c77bc6"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

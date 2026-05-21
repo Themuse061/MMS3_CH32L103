@@ -5,11 +5,13 @@
 	(uuid "c958b285-d99d-41ac-b2e3-f18ef4b2d136")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
+		(title "MMS3 CH32L103 Version")
+		(date "2026-05-18")
 		(rev "XA1")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
-		(comment 2 "DESIGNED IN POLAND")
+		(comment 1 "DESIGNED IN POLAND")
+		(comment 2 "Forked by: Wojciech Szafranski")
+		(comment 3 "Made by: Artem Horiunov")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -181,10 +183,6 @@
 		(uuid "6d85fc31-1521-4766-9e68-7be4e6c987b1")
 	)
 	(no_connect
-		(at 179.07 77.47)
-		(uuid "7c24859b-60f8-411f-bd6b-904ff3dffd41")
-	)
-	(no_connect
 		(at 179.07 134.62)
 		(uuid "8b5a4157-1d47-4e29-b852-a9393c09a01b")
 	)
@@ -203,10 +201,6 @@
 	(no_connect
 		(at 179.07 143.51)
 		(uuid "d09955f8-bcab-4563-96b7-6e1f47257c32")
-	)
-	(no_connect
-		(at 179.07 74.93)
-		(uuid "db9cc7a5-4a2f-454a-acf1-2d4673ab3ac9")
 	)
 	(no_connect
 		(at 179.07 132.08)
@@ -361,6 +355,16 @@
 			(type default)
 		)
 		(uuid "28f53411-89c1-41f7-9559-7361561f6876")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c9527c-714a-4506-9f54-fd4af1ec14b8")
 	)
 	(bus
 		(pts
@@ -531,6 +535,16 @@
 			(type default)
 		)
 		(uuid "c9742f2b-639a-4b22-84f8-60c389359b33")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e490f6-dcf8-49d0-a16c-3c8e7112219b")
 	)
 	(wire
 		(pts
@@ -770,6 +784,17 @@
 		)
 		(uuid "cf6b590b-3860-4f08-8444-6216d08e26f8")
 	)
+	(hierarchical_label "PA10 (USART1_RX)"
+		(shape input)
+		(at 182.88 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfac556a-0f2b-4654-97d6-35d9ac5c3671")
+	)
 	(hierarchical_label "Chainbus_addr[0..7]"
 		(shape input)
 		(at 226.06 49.53 0)
@@ -792,6 +817,17 @@
 		)
 		(uuid "da664b27-6842-45f4-a77e-689e98e772ce")
 	)
+	(hierarchical_label "PA9 (USART1_TX)"
+		(shape input)
+		(at 182.88 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc139554-37d1-42bc-9c69-8a9ba5533dd0")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 213.36 119.38 180)
@@ -804,7 +840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6f5dbc-e903-4f9a-ab64-8e299d54c1bd")
-		(property "Reference" "TP5"
+		(property "Reference" "TP?"
 			(at 210.82 123.9521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -865,7 +901,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec639d08-3c03-4054-a7c4-c3d480e6d770"
-					(reference "TP5")
+					(reference "TP?")
 					(unit 1)
 				)
 			)
@@ -883,7 +919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7cc3531-826d-4abb-9116-98cc1c1c337d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP?"
 			(at 210.82 114.8081 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -944,7 +980,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec639d08-3c03-4054-a7c4-c3d480e6d770"
-					(reference "TP6")
+					(reference "TP?")
 					(unit 1)
 				)
 			)

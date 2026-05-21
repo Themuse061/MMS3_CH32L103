@@ -5,12 +5,13 @@
 	(uuid "842d5c06-a910-4479-a4f4-6ed7a879e075")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
-		(date "2026-04-03")
+		(title "MMS3 CH32L103 Version")
+		(date "2026-05-18")
 		(rev "XA1")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
-		(comment 2 "DESIGNED IN POLAND")
+		(comment 1 "DESIGNED IN POLAND")
+		(comment 2 "Forked by: Wojciech Szafranski")
+		(comment 3 "Made by: Artem Horiunov")
 	)
 	(lib_symbols
 		(symbol "0402,10nF_1"

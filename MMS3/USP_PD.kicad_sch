@@ -5,11 +5,13 @@
 	(uuid "ce0bb721-cf37-4dc3-8bc5-08b2886c8b13")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
+		(title "MMS3 CH32L103 Version")
+		(date "2026-05-18")
 		(rev "XA1")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
-		(comment 2 "DESIGNED IN POLAND")
+		(comment 1 "DESIGNED IN POLAND")
+		(comment 2 "Forked by: Wojciech Szafranski")
+		(comment 3 "Made by: Artem Horiunov")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -1828,7 +1830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ca9e579-99b3-4cc7-99df-10ac3e645ba6")
-		(property "Reference" "#PWR0810"
+		(property "Reference" "#PWR?"
 			(at 156.21 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1888,7 +1890,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR0810")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1906,7 +1908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "368e05e0-2e2a-4a5d-a42b-40a6fe027208")
-		(property "Reference" "C800"
+		(property "Reference" "C?"
 			(at 172.72 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2124,7 +2126,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "C800")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2141,7 +2143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3831dad9-db6a-439d-843c-67181d7ef0b0")
-		(property "Reference" "#PWR0809"
+		(property "Reference" "#PWR?"
 			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2201,7 +2203,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR0809")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2219,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ec53cf-82e0-4b20-9330-2c4ee548ba2d")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG?"
 			(at 152.4 80.645 0)
 			(hide yes)
 			(show_name no)
@@ -2279,7 +2281,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#FLG02")
+					(reference "#FLG?")
 					(unit 1)
 				)
 			)
@@ -2297,7 +2299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57c9351-bb82-4ec0-8369-ed82fb3778b4")
-		(property "Reference" "R12"
+		(property "Reference" "R?"
 			(at 149.86 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2547,7 +2549,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "R12")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2564,7 +2566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a901ec6c-de0c-492d-bec7-4fffa035f290")
-		(property "Reference" "#PWR0800"
+		(property "Reference" "#PWR?"
 			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2624,7 +2626,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR0800")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2642,7 +2644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa684396-1b7e-4992-bde6-3250e94ecebc")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 158.75 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,7 +2894,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "R13")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -2910,7 +2912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7808eed-2d4f-4b82-8c5e-a2c1dce11ade")
-		(property "Reference" "J801"
+		(property "Reference" "J?"
 			(at 123.19 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,7 +3030,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "J801")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f76fbf27-c263-4c53-af7f-872156feda3e")
-		(property "Reference" "#PWR0812"
+		(property "Reference" "#PWR?"
 			(at 123.19 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3105,7 +3107,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR0812")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
