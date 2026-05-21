@@ -546,7 +546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "432abe30-7220-42b6-aa56-c449eb108124")
-		(property "Reference" "Q?"
+		(property "Reference" "Q2"
 			(at 134.62 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -662,11 +662,11 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/9a06b27f-9b6a-4e31-92df-df3bedc6f86c/1be75847-1909-4b67-b838-c8bbc7ec4791"
-					(reference "Q?")
+					(reference "Q3")
 					(unit 1)
 				)
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/9a06b27f-9b6a-4e31-92df-df3bedc6f86c/9e8f6c90-627d-4ab0-b348-a4c086c77bc6"
-					(reference "Q?")
+					(reference "Q2")
 					(unit 1)
 				)
 			)

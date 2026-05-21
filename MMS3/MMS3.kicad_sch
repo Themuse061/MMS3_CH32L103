@@ -12063,7 +12063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4fd591-86c7-4962-b7f3-7a383e5567e4")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 251.46 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12313,7 +12313,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12486,7 +12486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35bf00a5-eb1e-4c20-ab85-c420fd5d9479")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 248.92 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -12546,7 +12546,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "#PWR?")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12564,7 +12564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3948e502-8768-4118-ac9c-3ac7278dd548")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 271.78 144.7801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12840,7 +12840,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12858,7 +12858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ffc45d4-920d-4f6a-abd3-656d74ba0cf4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 271.78 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12919,7 +12919,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "#PWR?")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13093,7 +13093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c087525-077d-4880-99a0-df6de182b0e1")
-		(property "Reference" "S?"
+		(property "Reference" "S1"
 			(at 273.05 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,7 +13446,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "S?")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -13465,7 +13465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7245b391-fd39-46c0-8045-04016f254480")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 297.18 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13715,7 +13715,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13975,7 +13975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a8965d8-192b-45fa-8c86-22ea457d5a45")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 254 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14224,7 +14224,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14732,7 +14732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c23a33f8-5eea-4419-bb1c-f6b4d26d0495")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 269.24 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14792,7 +14792,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "#PWR?")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14965,7 +14965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa3cd6a6-1bba-45fa-bae9-f8fd65e406d9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR013"
 			(at 299.72 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15025,7 +15025,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "#PWR?")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15044,7 +15044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fae3941b-f42d-46ab-b00a-4e1472938414")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 304.8 114.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15218,7 +15218,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)

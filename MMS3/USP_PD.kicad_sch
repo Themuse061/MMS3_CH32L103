@@ -1830,7 +1830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ca9e579-99b3-4cc7-99df-10ac3e645ba6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0100"
 			(at 156.21 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1890,7 +1890,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR?")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -1908,7 +1908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "368e05e0-2e2a-4a5d-a42b-40a6fe027208")
-		(property "Reference" "C?"
+		(property "Reference" "C20"
 			(at 172.72 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2126,7 +2126,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "C?")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3831dad9-db6a-439d-843c-67181d7ef0b0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR099"
 			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR?")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -2221,7 +2221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ec53cf-82e0-4b20-9330-2c4ee548ba2d")
-		(property "Reference" "#FLG?"
+		(property "Reference" "#FLG03"
 			(at 152.4 80.645 0)
 			(hide yes)
 			(show_name no)
@@ -2281,7 +2281,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#FLG?")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2299,7 +2299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57c9351-bb82-4ec0-8369-ed82fb3778b4")
-		(property "Reference" "R?"
+		(property "Reference" "R21"
 			(at 149.86 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +2549,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a901ec6c-de0c-492d-bec7-4fffa035f290")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2626,7 +2626,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2644,7 +2644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa684396-1b7e-4992-bde6-3250e94ecebc")
-		(property "Reference" "R?"
+		(property "Reference" "R22"
 			(at 158.75 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +2894,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2912,7 +2912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7808eed-2d4f-4b82-8c5e-a2c1dce11ade")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 123.19 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3030,7 +3030,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3047,7 +3047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f76fbf27-c263-4c53-af7f-872156feda3e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR098"
 			(at 123.19 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3107,7 +3107,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/e6704835-a0d6-4395-9f25-d1173d300c0c"
-					(reference "#PWR?")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)

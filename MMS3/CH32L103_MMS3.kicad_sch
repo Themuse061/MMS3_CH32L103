@@ -840,7 +840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b6f5dbc-e903-4f9a-ab64-8e299d54c1bd")
-		(property "Reference" "TP?"
+		(property "Reference" "TP3"
 			(at 210.82 123.9521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -901,7 +901,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec639d08-3c03-4054-a7c4-c3d480e6d770"
-					(reference "TP?")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -919,7 +919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7cc3531-826d-4abb-9116-98cc1c1c337d")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 210.82 114.8081 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -980,7 +980,7 @@
 		(instances
 			(project "MMS3"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec639d08-3c03-4054-a7c4-c3d480e6d770"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
