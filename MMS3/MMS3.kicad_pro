@@ -60,68 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|138965000|116415000|02b3ab3d-910e-4ee9-8465-4c4d589998ec|eef302f7-c403-4e62-868b-946680a243fb",
-          ""
-        ],
-        [
-          "courtyards_overlap|157905000|116805000|27935515-2a8d-421d-8e8f-bfb2783a2877|eef302f7-c403-4e62-868b-946680a243fb",
-          ""
-        ],
-        [
-          "courtyards_overlap|157905000|118705000|ebe9955c-31f2-4647-969d-b5350d653835|eef302f7-c403-4e62-868b-946680a243fb",
-          ""
-        ],
-        [
-          "courtyards_overlap|157905000|120705000|92c474a1-4b44-4ce9-a7da-89f42d007cfb|eef302f7-c403-4e62-868b-946680a243fb",
-          ""
-        ],
-        [
-          "courtyards_overlap|157905000|126305000|ec70db35-c462-49ff-ad6a-7bcc7976b990|eef302f7-c403-4e62-868b-946680a243fb",
-          ""
-        ],
-        [
-          "courtyards_overlap|157905000|128205000|8b4e59ed-37f5-43ee-ac31-9d45f8dfc990|eef302f7-c403-4e62-868b-946680a243fb",
-          ""
-        ],
-        [
-          "courtyards_overlap|158111400|118705000|c4798e40-91d9-4d0a-a369-8b30f9b3a873|ebe9955c-31f2-4647-969d-b5350d653835",
-          ""
-        ],
-        [
-          "courtyards_overlap|158111400|120705000|92c474a1-4b44-4ce9-a7da-89f42d007cfb|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          ""
-        ],
-        [
-          "courtyards_overlap|158111400|126305000|c4798e40-91d9-4d0a-a369-8b30f9b3a873|ec70db35-c462-49ff-ad6a-7bcc7976b990",
-          ""
-        ],
-        [
-          "courtyards_overlap|158111400|128205000|8b4e59ed-37f5-43ee-ac31-9d45f8dfc990|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          ""
-        ],
-        [
-          "courtyards_overlap|158313200|116415000|c4798e40-91d9-4d0a-a369-8b30f9b3a873|eef302f7-c403-4e62-868b-946680a243fb",
-          ""
-        ],
-        [
-          "courtyards_overlap|158566866|116805000|27935515-2a8d-421d-8e8f-bfb2783a2877|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          ""
-        ],
-        [
-          "courtyards_overlap|176471400|124645000|463ee4f8-214f-40ea-bdb6-d29b170a4d45|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          ""
-        ],
-        [
-          "text_thickness|166800000|97739177|c6f03ee7-8a78-4b8d-b8b1-9df1d2291aca|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|166955312|96634791|f10a4192-0da2-4da1-906b-f57795fe5513|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -859,6 +798,13 @@
         "TX-",
         "RX+",
         "RX-"
+      ],
+      "WCH-Link": [
+        "TX",
+        "RX",
+        "SWCLK",
+        "SWDIO",
+        "RST"
       ]
     },
     "connection_grid_size": 50.0,
@@ -901,7 +847,7 @@
         "uuid": "712cea22-140d-4c92-923f-f4998caf3ecd"
       }
     ],
-    "used_designators": "#FLG2-3,#FLG6,R7-22,R33-34,R36-39,L1,D1-4,D6,D8-10,#PWR10-20,#PWR27,#PWR29-36,#PWR45,#PWR55,#PWR57-58,#PWR60-67,#PWR72-73,#PWR76,#PWR78-83,#PWR86,#PWR88,#PWR90-101,C3,C5,C7-20,C35-51,C65,TP1,TP3,TP16-20,U1-3,U7,J3-5,Q1-3,S1-3,X1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -966,8 +912,28 @@
       "NMos1"
     ],
     [
+      "4e582432-9e83-458b-8824-ff3819999650",
+      "Slide-SW"
+    ],
+    [
+      "dd6f0b36-db00-48b8-b944-6f2072efafe3",
+      "USB HUB"
+    ],
+    [
       "c085740e-6122-4df8-b6d1-901cece69bb5",
       "I2C_Flash"
+    ],
+    [
+      "96d12112-f83f-4af7-b18d-330f3cffbae0",
+      "USB switch"
+    ],
+    [
+      "46344785-5774-4cce-80e3-cf5f4963ca7b",
+      "USB switch1"
+    ],
+    [
+      "a9eeabb6-14a2-44ec-80b4-3cbcb71bc9a1",
+      "WCH-LinkE"
     ]
   ],
   "text_variables": {
